@@ -21,6 +21,7 @@
   </head>
 
   <body>
+    <script src="assets/js/initTheme.js"></script>
     <div id="app">
       <div id="sidebar" class="active">
         <div class="sidebar-wrapper active">
@@ -113,6 +114,9 @@
                   <span>Components</span>
                 </a>
                 <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="component-accordion.html">Accordion</a>
+                  </li>
                   <li class="submenu-item">
                     <a href="component-alert.html">Alert</a>
                   </li>
@@ -480,7 +484,7 @@
         </div>
       </div>
       <div id="main" class="layout-navbar navbar-fixed">
-        <header class="mb-3">
+        <header>
           <nav class="navbar navbar-expand navbar-light navbar-top">
             <div class="container-fluid">
               <a href="#" class="burger-btn d-block">
@@ -528,6 +532,7 @@
                       aria-expanded="false"
                     >
                       <i class="bi bi-bell bi-sub fs-4"></i>
+                      <span class="badge badge-notification bg-danger">7</span>
                     </a>
                     <ul
                       class="dropdown-menu dropdown-menu-end notification-dropdown"
@@ -728,24 +733,23 @@
               </div>
             </section>
           </div>
-
-          <footer>
-            <div class="footer clearfix mb-0 text-muted">
-              <div class="float-start">
-                <p>2021 &copy; Mazer</p>
-              </div>
-              <div class="float-end">
-                <p>
-                  Crafted with
-                  <span class="text-danger"
-                    ><i class="bi bi-heart-fill icon-mid"></i
-                  ></span>
-                  by <a href="https://ahmadsaugi.com">Saugi</a>
-                </p>
-              </div>
-            </div>
-          </footer>
         </div>
+        <footer>
+          <div class="footer clearfix mb-0 text-muted">
+            <div class="float-start">
+              <p>2021 &copy; Mazer</p>
+            </div>
+            <div class="float-end">
+              <p>
+                Crafted with
+                <span class="text-danger"
+                  ><i class="bi bi-heart-fill icon-mid"></i
+                ></span>
+                by <a href="https://ahmadsaugi.com">Saugi</a>
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
     <script src="assets/js/bootstrap.js"></script>
